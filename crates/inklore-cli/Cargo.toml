@@ -1,0 +1,19 @@
+[package]
+name = "inklore-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "inklore"
+path = "src/main.rs"
+
+[dependencies]
+inklore-engine.workspace = true
+clap.workspace = true

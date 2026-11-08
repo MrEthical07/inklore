@@ -1,0 +1,13 @@
+# Build output
+/target/
+
+# Inklore local (derived, rebuildable) state
+.inklore/local/
+
+# Editors
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db

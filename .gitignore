@@ -11,3 +11,7 @@
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Evaluation harness: working copies and raw results (published reports go to eval/reports/ later)
+eval/.work/
+eval/results/

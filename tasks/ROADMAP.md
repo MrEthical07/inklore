@@ -9,9 +9,9 @@ Status: ⬜ not started · 🟦 in progress · 🟨 in review · ✅ approved
 
 | Task | Status | What | Depends on |
 |---|---|---|---|
-| T-001 | ⬜ | Workspace scaffold: five crates, pinned toolchain, lints, licenses, CI on Windows/Linux/macOS | — |
+| T-001 | 🟨 | Workspace scaffold: five crates, pinned toolchain, lints, licenses, CI on Windows/Linux/macOS | — |
 | T-002 | ⬜ | Evaluation harness skeleton: chain format, runner that drives an agent CLI headlessly, report generator (no real runs yet) | T-001 |
-| T-003 | ⬜ | First three task chains on `superapi` with checkers; one baseline run | T-002 |
+| T-003 | ⬜ | Real agent adapters (Claude Code first); first three task chains on `superapi`, ideally replayed from its real release history; one baseline run | T-002 |
 
 ## M1 — Storage core (`inklore-store`)
 

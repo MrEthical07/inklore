@@ -13,11 +13,13 @@ record of how the project was built with AI.
    > Read `AGENTS.md` and `tasks/T-NNN-<name>.md`, complete the task, and write your report to
    > `tasks/reports/T-NNN.md`.
 
-   It works on a branch `task/T-NNN-<name>` and commits there.
+   It works on a branch `task/T-NNN-<name>`, commits there, pushes, and opens a pull request into
+   `main`. CI runs on Windows, Linux and macOS.
 3. **Review.** The reviewer reads the report and the code, builds and runs the tests independently,
-   checks every acceptance criterion and the design docs, and writes `tasks/reviews/T-NNN.md` with a
-   verdict:
-   - **approved** → merge the branch into `main`
+   checks CI, every acceptance criterion and the design docs, and writes `tasks/reviews/T-NNN.md` with
+   a verdict:
+   - **approved** → the maintainer merges the pull request on GitHub (`main` is protected; nothing
+     reaches it any other way)
    - **changes requested** → a numbered list of fixes; the agent is given
      > Read `AGENTS.md` and `tasks/reviews/T-NNN.md`, make the requested changes on the same branch,
      > and append a *Revision* section to `tasks/reports/T-NNN.md`.

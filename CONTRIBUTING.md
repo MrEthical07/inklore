@@ -4,6 +4,15 @@ Thank you for your interest. This project is built from written task files (see
 [tasks/README.md](tasks/README.md)); the rules for anyone writing code here, human or agent, are in
 [AGENTS.md](AGENTS.md).
 
+## Prerequisites
+
+- [rustup](https://rustup.rs/). The pinned toolchain installs itself on the first `cargo` call.
+- A C linker for your platform:
+  - **Windows:** Visual Studio Build Tools with the *Desktop development with C++* workload
+    (MSVC and a Windows SDK).
+  - **macOS:** Xcode Command Line Tools (`xcode-select --install`).
+  - **Linux:** `gcc` or `clang` from your package manager.
+
 ## Build and test
 
 The toolchain is pinned by `rust-toolchain.toml`; `rustup` installs it on the first `cargo` call.

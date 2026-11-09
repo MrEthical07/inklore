@@ -8,7 +8,7 @@ edition = "2024"
 rust-version = "1.97"
 license = "MIT OR Apache-2.0"
 authors = ["The Inklore Authors"]
-# repository: omit for now (not decided yet)
+repository = "https://github.com/MrEthical07/inklore"
 
 [workspace.lints.rust]
 unsafe_code = "deny"

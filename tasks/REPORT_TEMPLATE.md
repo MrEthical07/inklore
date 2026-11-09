@@ -32,8 +32,9 @@ Things you were unsure about or that the next task should settle.
 ## 9. Known issues and leftovers
 Anything incomplete, fragile, or worth revisiting.
 
-## 10. Git
-Branch name, final commit hash, and `git diff --stat main...HEAD`.
+## 10. Git and CI
+Branch name, final commit hash, `git diff --stat main...HEAD`, the pull request URL, and each CI job
+with its result.
 
 ## 11. Task-specific answers
 Answers to the questions the task file asks for (if any).

@@ -32,3 +32,11 @@ inklore-engine = { path = "crates/inklore-engine" }
 
 # shared external versions
 clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "1"
+thiserror = "2"
+anyhow = "1"
+wait-timeout = "0.2"
+nix = { version = "0.31", default-features = false, features = ["signal"] }
+tempfile = "3"

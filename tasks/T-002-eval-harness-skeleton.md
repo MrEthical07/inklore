@@ -7,6 +7,24 @@
 - `docs/08-evaluation.md` (the whole evaluation design — this task builds its machinery)
 - `docs/10-decisions.md` (D18)
 
+## Rules
+- Follow `AGENTS.md` in full.
+- **AI attribution is welcome.** Keep the attribution your tool adds by default — the `Co-Authored-By`
+  trailer on commits and the footer on pull requests. This project deliberately shows that it is built
+  with AI. Do not put attribution banners inside source files.
+- Work on the task branch; push it and open a pull request. Never push to or merge into `main`.
+
+## Step 0 — housekeeping (first commit on the branch)
+1. In `AGENTS.md`, replace the whole "No AI attribution, ever" bullet with:
+   ```markdown
+   - **AI attribution is welcome.** Keep the attribution your tool adds by default: the
+     `Co-Authored-By` trailer on commits and the footer on pull requests. The project deliberately shows
+     that it is built with AI. Do not add attribution banners inside source files.
+   ```
+2. In `tasks/ROADMAP.md`, set T-001 to ✅ and T-002 to 🟦.
+3. Commit both, together with this task file if it shows as modified, as
+   `docs: allow AI attribution; mark T-001 done`.
+
 ## Goal
 Build `inklore-eval`, a command-line harness that runs **task chains** against **arms** and produces a
 report. A chain is a sequence of coding tasks on one repository, each run by an agent in a fresh
